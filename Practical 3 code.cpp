@@ -243,6 +243,8 @@ int main() {
 		largestNum = num2;
 
 
+	cout << "Hi im the ghost here" << endl;
+
 	system("pause");
 	return 0;
 }
