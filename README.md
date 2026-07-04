@@ -21,4 +21,4 @@ The system is split into three primary functional sub-sections, backed by custom
 * **Log Auditing:** Synchronizes transactional state updates instantly into custom file paths labeled `XX_paymentCheckIn.txt`.
 
 ### Bonus Feature
-* **Invoice Generation:** Automatically outputs formalized receipt manifests containing comprehensive trip outlines, passport bindings, and group contact networks to localized text logs titled `XX_invoice.txt`.
+* **Invoice Generation:** Generates receipt containing comprehensive trip details, including payment info, flight schedule, passenger details to localized text logs titled `XX_invoice.txt`.
