@@ -16,7 +16,7 @@ The system is split into three primary functional sub-sections, backed by custom
 * **Persistent Storage:** Records dynamically map to user-specific local tracking files labeled `XX_Booking.txt` (where `XX` is the account username).
 
 ### 3. Transactions & Pre-Flight Administration (Payment & Check-In Modules)
-* **Perform Payment:** Calculates total itinerary amounts and processes dummy transactions via credit/debit or bank transfer.
+* **Perform Payment:** Calculates total itinerary amounts and processes transactions via credit/debit or bank transfer.
 * **Passenger Check-In:** Restricts check-in capabilities until payment verification clears. Collects necessary passport and individual contact markers for travelers.
 * **Log Auditing:** Synchronizes transactional state updates instantly into custom file paths labeled `XX_paymentCheckIn.txt`.
 
